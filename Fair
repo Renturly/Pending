@@ -1,0 +1,7 @@
+var Trillionaires = [[17,420,680]]
+
+for Fistfuls in Trillionaires {
+	for Dollars in Fistfuls {
+		print(Dollars)
+	}
+}
