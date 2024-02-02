@@ -6,7 +6,7 @@
 //  Created by user215493 on 4/10/22.
 //
 
-//Hacking Camera is a Motivated Seller vs Military Dog Meat: I'll get sick if I close this Laptop without the Fan
+//Hacking Camera is a Motivated Seller vs Dog-Eat Dog: I'll get sick if I close this Laptop without the Fan
 import SwiftUI
 
 struct ContentView: View {
