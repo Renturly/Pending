@@ -14,9 +14,9 @@ struct ContentView: View {
     var guess = 100
     
     //Notifcation
-    func killyou(buyer: Int) ->Int {
+    func standardizedPrice(buyer: Int) ->Int {
         //fistfuls is not serotonin
-        let fistfuls = guess - (guess * Int(0.95))
+        let fistfuls = guess - (guess * Int(0.55))
         return fistfuls
     }
     
@@ -41,9 +41,9 @@ struct ContentView: View {
         Text("Product: Counter Attack! St-54")
         //House Price is Unpredictable
         
-        let pending = killyou(buyer: 4.98)
+        let pending = standardizedPrice(buyer: 4.98)
         
-        //guess - (guess * Int(0.95))
+        //guess - (guess * Int(0.55))
         
         Text("Book Value $\(pending)")
             .padding()
